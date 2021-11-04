@@ -16,6 +16,8 @@ public class statement_if_else_scanner {
         Scanner myObj = new Scanner(System.in);
         System.out.println("Enter your number: ");
         num = myObj.nextInt();
+
+        myObj.close();
         
         if(num % 2 == 0) {
             System.out.println(num + " la so chan");
